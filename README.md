@@ -72,6 +72,7 @@ pytest
 
 ## Example response
 
+```sh
 vscode ➜ /workspaces/azure-ptu-loadtester (main) $ azure-ptu-loadtest --rps 10 --duration 60
 Running 10 RPS per endpoint (20 total) for 60s...
 
@@ -82,3 +83,4 @@ ptu       281/600  1201.1 ms  931.2 ms  1389.4 ms  2103.0 ms   36219
 
 Reports: results/loadtest-20261012T120327Z.json and results/loadtest-20261012T120327Z.csv
 vscode ➜ /workspaces/azure-ptu-loadtester (main) $
+```
