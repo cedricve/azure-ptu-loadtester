@@ -69,3 +69,16 @@ from report files.
 ```sh
 pytest
 ```
+
+## Example response
+
+vscode ➜ /workspaces/azure-ptu-loadtester (main) $ azure-ptu-loadtest --rps 10 --duration 60
+Running 10 RPS per endpoint (20 total) for 60s...
+
+Endpoint  Success  Mean       p50       p95        p99         Max         Queue p95
+--------  -------  ---------  --------  ---------  ----------  ----------  ---------
+paygo     21/600   3055.5 ms  950.4 ms  1589.6 ms  36311.5 ms  44992.0 ms  6.1 ms
+ptu       281/600  1201.1 ms  931.2 ms  1389.4 ms  2103.0 ms   36219.2 ms  5.7 ms
+
+Reports: results/loadtest-20261012T120327Z.json and results/loadtest-20261012T120327Z.csv
+vscode ➜ /workspaces/azure-ptu-loadtester (main) $
