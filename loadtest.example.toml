@@ -1,0 +1,13 @@
+[[endpoints]]
+name = "model-a"
+url = "https://RESOURCE_A.openai.azure.com/openai/deployments/DEPLOYMENT_A/chat/completions"
+api_key_env = "AZURE_OPENAI_API_KEY_A"
+model = "DEPLOYMENT_A"
+api_version = "2024-10-21"
+
+[[endpoints]]
+name = "model-b"
+url = "https://RESOURCE_B.openai.azure.com/openai/deployments/DEPLOYMENT_B/chat/completions"
+api_key_env = "AZURE_OPENAI_API_KEY_B"
+model = "DEPLOYMENT_B"
+api_version = "2024-10-21"

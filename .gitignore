@@ -1,0 +1,5 @@
+loadtest.toml
+results/
+__pycache__/
+*.egg-info/
+.pytest_cache/
